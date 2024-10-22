@@ -27,8 +27,8 @@ function init() {
         new ExperimentalCube(gl)
     ];
 
-    let near = 2.0;
-    let far = 4.0;
+    let near = 1.0;
+    let far = 10.0;
     let P = perspective(60.0, 1.0, near, far);
 
     for (let c of cubes) {

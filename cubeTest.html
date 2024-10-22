@@ -23,8 +23,8 @@
             let axes = new Axes(gl);
             let ms = new MatrixStack;
 
-            let near = 2.0;
-            let far = 4.0;
+            let near = 1.0;
+            let far = 10.0;
             cube.P = perspective(60.0, 1.0, near, far);
             axes.P = cube.P;
 
